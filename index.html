@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_home_48px-256.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <label id="dark-change"></label>
+        <div class="container">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-picture">
+            <h1>Kowen Emonaga</h1>
+            <nav>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="Profile2.jpg" alt="Profile2">
+                </div>
+                <div class="about-text">
+                    <h2>Hello there!</h2>
+                    <p>I'm Kowen Caimon S. Emonaga, a dedicated student on a journey of discovery and growth. Currently pursuing Computer Science, I find myself deeply immersed in the exciting world of learning.</p>
+                    <p>As a student, I embrace each day as an opportunity to expand my knowledge, sharpen my skills, and explore new ideas. Whether it's delving into the intricacies of my chosen field or exploring diverse subjects, I approach each challenge with curiosity and enthusiasm.</p>
+                    <p>Balancing academics with personal interests, I'm constantly seeking ways to challenge myself, broaden my horizons, and make meaningful contributions to the world around me. Through dedication, perseverance, and a thirst for knowledge, I aim to create a bright and fulfilling future for myself and those around me.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var content = document.getElementsByTagName('body')[0];
+        var darkMode = document.getElementById('dark-change');
+        darkMode.addEventListener('click', function(){
+            darkMode.classList.toggle('active');
+            content.classList.toggle('night');
+        })
+    </script>
+</body>
+</html>
+
+
+        
